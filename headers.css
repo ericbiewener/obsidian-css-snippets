@@ -23,7 +23,7 @@
   border-bottom: 1px solid #ccc;
 }
 
-/* .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1,
 .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2,
 .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3 {
   margin-top: 3rem !important;
@@ -38,4 +38,4 @@
 
 .markdown-source-view.mod-cm6 .cm-content .HyperMD-header + .HyperMD-header {
   margin-top: 0 !important;
-} */
+}
