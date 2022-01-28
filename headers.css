@@ -1,0 +1,41 @@
+:root {
+  /* Values taken from https://tailwindcss.com/docs/font-size */
+  --h1: 1.875rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --h4: 1rem;
+  --h5: 0.875rem;
+  --h6: 0.75remem;
+
+  --h1-weight: normal;
+  --h2-weight: normal;
+  --h4-variant: normal;
+  --h4-weight: bold;
+}
+
+.theme-light,
+.theme-dark {
+  /* --h2-color: var(--blue); */
+  /* --h3-color: var(--blue); */
+}
+
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1 {
+  border-bottom: 1px solid #ccc;
+}
+
+/* .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3 {
+  margin-top: 3rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1:first-child,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2:first-child,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header + .HyperMD-header {
+  margin-top: 0 !important;
+} */
