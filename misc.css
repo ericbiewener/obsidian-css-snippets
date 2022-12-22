@@ -1,0 +1,24 @@
+body {
+  --file-line-width: 1800px;
+}
+
+body .markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl)
+  .cm-contentContainer {
+  max-width: 100%;
+  padding: 0 3em;
+}
+
+body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-content,
+body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width
+  .cm-line:not(.HyperMD-table-row) {
+  max-width: 100%;
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-list-indent {
+  /* https://forum.obsidian.md/t/greater-list-indent-and-indention-lines-in-live-preview/27722/2 */
+  font-family: var(--font-monospace) !important;
+}
+
+.external-link {
+  display: none;
+}
