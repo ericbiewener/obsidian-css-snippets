@@ -22,3 +22,8 @@ body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width
 .external-link {
   display: none;
 }
+
+/* Hide attachemtns directory in file tree */
+[data-path="attachments"] {
+  display: none;
+}
