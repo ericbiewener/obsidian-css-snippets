@@ -27,3 +27,8 @@ body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width
 [data-path="attachments"] {
   display: none;
 }
+
+/* Hide tab bar. NOTE: also hides toggle right sidebar button, maybe other stuff */
+.workspace-tab-header-container {
+  display: none;
+}
