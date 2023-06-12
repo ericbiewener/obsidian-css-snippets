@@ -5,14 +5,21 @@
   --h4-size: 1rem;
   --h5-size: 0.875rem;
   --h6-size: 0.75rem;
+
+  --code-block-radius: 7px;
+  --code-block-border-thickness: 1px;
+  --code-block-border-color: var(--neutral-700);
+  --code-block-font: Dank Mono;
 }
 
 .theme-dark {
   --text-normal: var(--neutral-300);
   --list-marker-color: var(--neutral-400);
+  --link-external-color: var(--teal-200);
+  --checkbox-color: var(--link-external-color);
 
-  --background-primary: var(--neutral-900);
-  --background-secondary: var(--neutral-800);
+  --background-primary: var(--neutral-800);
+  --background-secondary: var(--neutral-700);
   
   --h1-color: var(--orange-400);
   --h1-weight: normal;
@@ -26,6 +33,24 @@
 
 .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1 {
   border-bottom: 1px solid var(--h2-color);
+}
+
+.HyperMD-codeblock {
+  border-left: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  border-right: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  font-family: var(--code-block-font) !important;
+}
+
+.HyperMD-codeblock-begin {
+  border-top: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  border-top-left-radius: var(--code-block-radius) !important;
+  border-top-right-radius: var(--code-block-radius) !important;
+}
+
+.HyperMD-codeblock-end {
+  border-bottom: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  border-bottom-left-radius: var(--code-block-radius) !important;
+  border-bottom-right-radius: var(--code-block-radius) !important;
 }
 
 /* .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1,
