@@ -9,7 +9,8 @@
   --code-block-radius: 7px;
   --code-block-border-thickness: 1px;
   --code-block-border-color: var(--neutral-700);
-  --code-block-font: Dank Mono;
+ 
+  --font-monospace: Dank Mono;
 }
 
 .theme-dark {
@@ -38,7 +39,6 @@
 .HyperMD-codeblock {
   border-left: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
   border-right: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
-  font-family: var(--code-block-font) !important;
 }
 
 .HyperMD-codeblock-begin {
