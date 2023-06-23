@@ -32,3 +32,11 @@ body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width
 .workspace-tab-header-container {
   display: none;
 }
+
+.cm-inline-code {
+  --code-background: var(--neutral-700);
+  --code-normal: var(--neutral-200);
+  border: 1px solid var(--neutral-500);
+  border-radius: 3px;
+  padding: 2px 5px;
+}
