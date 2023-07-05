@@ -1,20 +1,29 @@
 .markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1 {
-  border-bottom: 1px solid var(--h2-color);
+  border-bottom: 1px solid var(--h1-color);
+  background: linear-gradient(
+    rgb(186, 230, 253, 0),
+    rgb(186, 230, 253, 0.05),
+    rgb(186, 230, 253, 0.05)
+  );
 }
 
 .HyperMD-codeblock {
-  border-left: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
-  border-right: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  border-left: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
+  border-right: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
 }
 
 .HyperMD-codeblock-begin {
-  border-top: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  border-top: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
   border-top-left-radius: var(--code-block-radius) !important;
   border-top-right-radius: var(--code-block-radius) !important;
 }
 
 .HyperMD-codeblock-end {
-  border-bottom: var(--code-block-border-thickness) solid var(--code-block-border-color) !important;
+  border-bottom: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
   border-bottom-left-radius: var(--code-block-radius) !important;
   border-bottom-right-radius: var(--code-block-radius) !important;
 }

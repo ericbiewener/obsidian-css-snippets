@@ -22,12 +22,12 @@
   --background-primary: var(--neutral-800);
   --background-secondary: var(--neutral-700);
   
-  --h1-color: var(--orange-400);
+  --h1-color: var(--sky-300);
   --h1-weight: normal;
-  --h2-color: var(--orange-300);
+  --h2-color: var(--green-400);
   --h2-weight: normal;
-  --h3-color: var(--orange-200);
+  --h3-color: var(--green-300);
   --h3-weight: normal;
-  --h4-color: var(--orange-100);
+  --h4-color: var(--green-200);
   --h4-weight: bold;
 }
