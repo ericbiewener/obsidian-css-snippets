@@ -1,11 +1,4 @@
 .theme-dark, .theme-light {
-  --h1-size: 1.875rem;
-  --h2-size: 1.5rem;
-  --h3-size: 1.15rem;
-  --h4-size: 1rem;
-  --h5-size: 0.875rem;
-  --h6-size: 0.75rem;
-
   --code-block-radius: 7px;
   --code-block-border-thickness: 1px;
   --code-block-border-color: var(--neutral-700);
@@ -16,18 +9,33 @@
 .theme-dark {
   --text-normal: var(--neutral-300);
   --list-marker-color: var(--neutral-400);
-  --link-external-color: var(--teal-200);
+  --link-external-color: var(--sky-200);
   --checkbox-color: var(--link-external-color);
+  --bold-color: var(--emerald-200);
+  /* --link-external-decoration: none; */
 
   --background-primary: var(--neutral-800);
   --background-secondary: var(--neutral-700);
   
-  --h1-color: var(--sky-300);
+  --h1-color: var(--emerald-300);
+  --h1-border: 1px solid var(--emerald-300-50);
   --h1-weight: normal;
-  --h2-color: var(--green-400);
+
+  --h2-color: var(--sky-200);
   --h2-weight: normal;
-  --h3-color: var(--green-300);
-  --h3-weight: normal;
-  --h4-color: var(--green-200);
-  --h4-weight: bold;
+}
+
+.theme-light {
+  --background-primary: var(--stone-100);
+  --background-secondary: var(--stone-200);
+  --text-normal: var(--stone-900);
+  --border-color: var(--stone-250);
+  --table-border-color: var(--border-color);
+  --link-external-color: var(--emerald-600);
+
+  --h1-border: 1px solid var(--border-color);
+  --h1-weight: normal;
+
+  --h2-color: var(--stone-600);
+  --h2-weight: normal;
 }

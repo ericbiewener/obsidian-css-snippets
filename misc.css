@@ -1,46 +1,40 @@
 body {
-  --file-line-width: 1800px;
+  --file-line-width: 1200px;
 }
 
-body .markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl)
-  .cm-contentContainer {
-  max-width: 100%;
-  padding: 0 3em;
+/******************************************************/
+/****************** HEADERS ***************************/
+/******************************************************/
+
+.HyperMD-header-1 {
+  border-bottom: var(--h1-border)
 }
 
-body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-content,
-body .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width
-  .cm-line:not(.HyperMD-table-row) {
-  max-width: 100%;
+/******************************************************/
+/****************** CODE BLOCKS ***************************/
+/******************************************************/
+
+.HyperMD-codeblock {
+  border-left: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
+  border-right: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
 }
 
-.markdown-source-view.mod-cm6 .cm-hmd-list-indent {
-  /* https://forum.obsidian.md/t/greater-list-indent-and-indention-lines-in-live-preview/27722/2 */
-  font-family: var(--font-monospace) !important;
+.HyperMD-codeblock-begin {
+  border-top: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
+  border-top-left-radius: var(--code-block-radius) !important;
+  border-top-right-radius: var(--code-block-radius) !important;
+}
+
+.HyperMD-codeblock-end {
+  border-bottom: var(--code-block-border-thickness) solid
+    var(--code-block-border-color) !important;
+  border-bottom-left-radius: var(--code-block-radius) !important;
+  border-bottom-right-radius: var(--code-block-radius) !important;
 }
 
 .external-link {
   display: none;
-}
-
-/* Hide attachemtns directory in file tree */
-[data-path="attachments"] {
-  display: none;
-}
-
-/* Hide tab bar. NOTE: also hides toggle right sidebar button, maybe other stuff */
-.workspace-tab-header-container {
-  display: none;
-}
-
-/*
- * Inline code
- */
-
-.cm-inline-code:not(.cm-formatting-code) {
-  --code-background: var(--neutral-700);
-  --code-normal: var(--neutral-200);
-  border: 1px solid var(--neutral-500);
-  border-radius: 3px;
-  padding: 2px 5px;
 }
