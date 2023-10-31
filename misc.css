@@ -36,5 +36,6 @@ body {
 }
 
 .external-link {
-  display: none;
+  background-image: none;
+  padding-right: 0;
 }
