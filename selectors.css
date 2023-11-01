@@ -44,6 +44,8 @@ body {
 .cm-s-obsidian span.cm-inline-code {
   background: var(--stone-300);
   color: var(--stone-700);
+  font-family: inherit;
+  font-weight: 500;
 }
 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content > div:first-child {

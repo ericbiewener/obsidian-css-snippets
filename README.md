@@ -1,0 +1,3 @@
+- [All Obsidian theme variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables)
+- [Tailwind colors](https://gist.github.com/minutiae/3983bb128ad1756ae67ca1bccc184d4c)
+- [Color blender](https://meyerweb.com/eric/tools/color-blend/#E7E5E4:D6D3D1:1:hex)
