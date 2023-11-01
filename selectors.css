@@ -35,7 +35,17 @@ body {
   border-bottom-right-radius: var(--code-block-radius) !important;
 }
 
+/* Hide external link icon */
 .external-link {
   background-image: none;
   padding-right: 0;
+}
+
+.cm-s-obsidian span.cm-inline-code {
+  background: var(--stone-300);
+  color: var(--stone-700);
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-content > div:first-child {
+  padding-top: 0;
 }
