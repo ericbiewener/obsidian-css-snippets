@@ -4,6 +4,7 @@
   --code-block-border-color: var(--neutral-700);
  
   --font-monospace: Dank Mono;
+  --list-indent: 1.5em;
 }
 
 .theme-dark {
