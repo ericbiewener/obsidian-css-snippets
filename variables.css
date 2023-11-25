@@ -5,6 +5,9 @@
  
   --font-monospace: Dank Mono;
   --list-indent: 1.5em;
+
+  /* Custom */
+  /* --block-quote-padding: 0.5rem; */
 }
 
 .theme-dark {
@@ -33,6 +36,7 @@
   --border-color: var(--stone-250);
   --table-border-color: var(--border-color);
   --link-external-color: var(--emerald-600);
+  --blockquote-background-color: var(--stone-200);
   
   --code-normal: var(--stone-200);
   --code-background: var(--stone-800);
@@ -42,4 +46,10 @@
 
   --h2-color: var(--stone-600);
   --h2-weight: normal;
+
+  --h3-color: var(--stone-600);
+  --h3-weight: normal;
+
+  --h4-color: var(--stone-600);
+  --h4-weight: normal;
 }
